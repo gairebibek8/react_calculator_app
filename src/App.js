@@ -16,13 +16,13 @@ function App() {
 
 	return (
 		<div className="App">
-			<div className="calculator">
+			<div className="fi-calculator">
 
-				<div className="display">
+				<div className="fi-display">
 					<span>(0)</span> 0
 				</div>
 
-				<div className="operators" >
+				<div className="fi-operators" >
 					<button>*</button>
 					<button>/</button>
 					<button>+</button>
@@ -31,7 +31,7 @@ function App() {
 					<button>DEL</button>
 				</div>
 
-				<div className="digits" >
+				<div className="fi-digits" >
 					{ createDigits() }
 					<button>0</button>
 					<button>.</button>
